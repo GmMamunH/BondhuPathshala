@@ -1,0 +1,307 @@
+/* ======== Google Font ======== */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap');
+
+/* ======== Google Font ======== 
+
+font-family: 'Noto Sans Bengali', sans-serif;
+
+/*======== reset start ======== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --body-color : #fff ;
+    --navbar-color : #d61010;
+    --btn-color: #3CC68A;
+    --hero-text-color :#02073E;
+    --text-color: #000;
+    --hover-color : #beca0d;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background: var(--body-color);
+  
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto; 
+}
+
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* ======== header start ======== */
+header{
+    border-bottom: 1px solid #999; 
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 134px ;   
+}
+
+.logo{
+    width: 250px;
+    height: 70px;
+}
+
+.main-menu ul{
+    display: flex;
+    gap: 80px;
+    text-decoration: none;
+}
+
+.main-menu ul li a{
+    color: var(--text-color);
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main-menu ul li a:hover{
+    color: var(--hover-color);
+}
+
+/* ======== hero area start ======== */
+
+.hero-area{
+    margin: 10px auto 100px auto;   
+    
+} 
+
+.class{
+    padding: 10px;
+}
+
+.single-class{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid red;
+    box-shadow: 3px 5px 8px gray;
+   /* background-color: #fff */
+}
+
+.img{
+    width: 380px;
+    height: 225px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.class-group{
+    color: var(--text-color);
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    border-bottom: 1px solid #beca0d;
+    margin-bottom: 10px;
+}
+
+.cBlogs{
+    border-bottom: 1px solid var(--btn-color);
+    margin-bottom: 10px;
+}
+
+.subject{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subject>h3{
+    color: var(--text-color);
+    font-size: medium;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;   
+}
+
+.enroll-a{
+    padding: 20px;
+}
+
+.enroll-btn{
+    color: var(--text-color);
+    padding: 10px 150px;
+    text-align: center;
+    align-items: center;
+    transform: none;
+    border-radius: 5px;
+    border: 1px solid var(--hero-text-color); 
+}
+
+.enroll-btn:hover{
+    background: #155e96;
+    color: #fff;  
+    border: 1px solid red;  
+}
+
+/* ======== Grid ======== */
+
+.grid{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+
+
+/* ======== Google Font ======== */
+
+
+
+/* ======== Google Font ======== */
+
+
+
+
+/* ======== Responsive ======== */
+@media only screen and (max-width: 768px) {
+    
+  /* ======== header start ======== */
+header{
+    border-bottom: 1px solid #999;   
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 13px;  
+}
+
+.logo{
+    width: 170px;
+    height: 50px;
+}
+
+.main-menu ul{
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+}
+
+.main-menu ul li a{
+    color: var(--text-color);
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main-menu ul li a:hover{
+    color: var(--hover-color);
+}
+
+/* ======== hero area start ======== */
+
+.hero-area{
+    margin: 10px 50px 100px 50px  
+} 
+
+.class{
+    padding: 10px;
+}
+
+.single-class{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid red;
+    box-shadow: 3px 5px 8px gray;
+}
+
+.img{
+    width: 380px;
+    height: 225px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.class-group{
+    color: var(--text-color);
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    border-bottom: 1px solid #beca0d;
+    margin-bottom: 10px;
+}
+
+.cBlogs{
+    border-bottom: 1px solid var(--btn-color);
+    margin-bottom: 10px;
+}
+
+.subject{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subject>h3{
+    color: var(--text-color);
+    font-size: medium;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+.enroll-a{
+    padding: 20px;
+}
+
+.enroll-btn{
+    color: var(--text-color);
+    padding: 10px 150px;
+    text-align: center;
+    align-items: center;
+    transform: none;
+    border-radius: 5px;
+    border: 1px solid var(--hero-text-color); 
+}
+
+.enroll-btn:hover{
+    background: #155e96;
+    color: #fff;  
+    border: 1px solid red;  
+}
+
+/* ======== Grid ======== */
+
+.grid{
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+
+
+
+}
+    
